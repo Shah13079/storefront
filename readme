@@ -1,0 +1,41 @@
+# Storefront Projects
+
+This repository contains storefront projects developed for learning purposes. It includes several Django apps demonstrating different concepts and features. Below is a brief overview of the apps included:
+
+## Apps Overview
+
+### Playground App
+This app is designed for simple Django practices and experimentation.
+
+### Store App, Tags App, Core App
+These apps are built using the **Django Rest Framework (DRF)** and cover a wide range of topics such as:
+- Serializers
+- Authentication
+- Signals
+- Administration management
+- Multi-level API development (from simple API views to ViewSets)
+
+The project demonstrates comprehensive API development concepts and provides a solid foundation for building RESTful APIs in Django.
+
+## API Endpoints
+
+The following API endpoints are available in the project:
+
+### Base Endpoints
+- `http://127.0.0.1:8000/products/` 
+- `http://127.0.0.1:8000/collections/`
+- `http://127.0.0.1:8000/carts/`
+- `http://127.0.0.1:8000/customers/`
+- `http://127.0.0.1:8000/orders/`
+
+### Nested Endpoints
+#### Product Reviews
+- `http://127.0.0.1:8000/products/<product_id>/reviews/`
+  
+#### Cart Items
+- `http://127.0.0.1:8000/carts/<cart_id>/items/`
+
+## Notes
+- Replace `<product_id>` and `<cart_id>` with the appropriate IDs when accessing nested endpoints.
+
+This project is a great resource for understanding how to structure and implement complex APIs with Django and Django Rest Framework. Happy learning!
